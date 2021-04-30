@@ -1,0 +1,149 @@
+// home
+.home {
+    min-height     : 100vh;
+    padding        : 0 16px;
+    background     : #a2a2aa url('../../images/top.jpg') no-repeat;
+    background-size: 100%;
+    overflow-y     : auto;
+}
+
+.home-detail {
+    padding-top: 46%;
+}
+
+.home-notice {
+    display       : flex;
+    flex-direction: column;
+    padding       : 12px;
+    margin-bottom : 8px;
+    background    : #fff;
+    border        : 1px solid #de9c00;
+    border-radius : 6px;
+}
+
+.home-notice img {
+    width: 100%;
+}
+
+.home-notice-desc {
+    margin-top: 12px;
+    color     : #27282b;
+    font-size : 14px;
+}
+
+.desc-detail p {
+    margin     : 0;
+    text-indent: 2em;
+}
+
+.desc-right {
+    text-align: right;
+}
+
+.home-info {
+    padding-bottom: 12px;
+}
+
+.home-info-list {
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background   : #fff;
+    overflow     : hidden;
+}
+
+.home-info-list:last-child {
+    margin: 0;
+}
+
+.home-info-list-img {
+    display        : flex;
+    align-items    : center;
+    flex-wrap      : nowrap;
+    overflow-x     : scroll;
+    justify-content: center;
+    position: relative;
+
+    img {
+        width  : auto !important;
+        height : 200px;
+        display: block;
+        margin : 5px auto;
+    }
+}
+
+.home-info-list-notactive {
+    width : 100%;
+
+    .home-info-list-title {
+        font-size: 14px;
+        color    : #27282b;
+        padding  : 10px 16px 4px;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .home-info-list-desc {
+        padding: 0 16px 16px;
+    }
+
+    .stacites{
+        position: absolute;
+        top: 9px;
+        right: 12px;
+        background-color: rgba(255, 0, 0,0.1);
+        border-radius: 12px;
+        padding: 3px 6px;
+        font-size: 12px;
+        font-weight: bold;
+        color: red;
+    }
+}
+
+.active {
+    width              : 100%;
+    background         : #fff url('../../images/select.png') no-repeat;
+    background-size    : 10%;
+    background-position: bottom right;
+    border             : 1px solid #de9c00;
+}
+
+.home-btn {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.home-btn div {
+    height       : 44px;
+    line-height  : 44px;
+    margin       : 12px 0 16px;
+    font-size    : 17px;
+    text-align   : center;
+    border-radius: 6px;
+    color        : #fff;
+
+}
+
+.home-sub {
+    width     : 100%;
+    background: #ff0000;
+}
+
+.home-btn .home-statistics {
+    width : 100%;
+    color : #ff0000;
+    border: 1px solid #ff0000;
+}
+
+.home-btn-sub {
+    width     : 49%;
+    background: #ff0000;
+}
+
+.home-btn .home-btn-statistics {
+    width : 49%;
+    color : #ff0000;
+    border: 1px solid #ff0000;
+}
